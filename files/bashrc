@@ -47,6 +47,10 @@ alias grin='grep -rin'
 alias psa="ps aux"
 alias psg="ps aux | grep $1"
 
+# Find biggest files (default top 10)
+# ducks -n 5 will give top 5 biggest files
+alias ducks='du -cks * | sort -rn | head'
+
 # return the machines local IP address
 function intip {
   local INTF=`route get default | grep interface | awk '{print $2}'`
