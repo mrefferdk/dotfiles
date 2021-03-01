@@ -36,3 +36,40 @@ Add your personal aliases and other stuff in here.
 ```bash
 export DOTFILES_EMAIL="your@email.com" # Used for bin/backup.sh
 ```
+
+
+
+# New Mac installation TO-DOs
+.ssh/config
+Phpstorm
+PHP 7.4
+Composer 1
+Node 
+FlyCut (copy/paste)
+iTerm2: brew install --cask iterm2
+Rectangle (window management): brew install --cask rectangle
+
+Shell:
+Bash. (Zsh is default in Mac now)
+FZF fuzzy search (https://github.com/junegunn/fzf)
+Bashrc config (bash_profile on Mac): https://github.com/mrefferdk/dotfiles/blob/master/files/bashrc
+
+
+
+brew install --cask sequel-ace
+brew install php@7.4
+brew services start php
+brew install composer && composer self-update 1.10.15
+Install tunnelblick and add .ovpn file from Matrix
+
+NODE:
+Node: (downgrade) - https://medium.com/@katopz/how-to-install-specific-nodejs-version-c6e1cec8aa11
+brew unlink node
+brew install node@10
+brew link node@10
+Multiple Node versions: https://notiz.dev/blog/how-to-manage-multiple-node-versions-on-mac#switch-node-via-alias
+
+
+
+
+
