@@ -56,9 +56,15 @@ iTerm2: brew install --cask iterm2
 
 Rectangle (window management): brew install --cask rectangle
 
-Shell:
+*Shell:*
 
 Bash. (Zsh is default in Mac now)
+brew install bash
+sudo nano /etc/shells
+
+# add to last line
+/usr/local/bin/bash
+chsh -s /usr/local/bin/bash $USER
 
 FZF fuzzy search (https://github.com/junegunn/fzf)
 
