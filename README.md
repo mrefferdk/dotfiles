@@ -78,6 +78,8 @@ brew install php@7.4
 
 brew services start php
 
+brew install --cask insomnia
+
 brew install composer && composer self-update 1.10.15
 
 Install tunnelblick and add .ovpn file from Matrix
