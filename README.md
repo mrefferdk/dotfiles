@@ -44,7 +44,7 @@ export DOTFILES_EMAIL="your@email.com" # Used for bin/backup.sh
 
 Phpstorm
 
-PHP 7.4
+PHP 8 (https://stitcher.io/blog/php-81-upgrade-mac)
 
 Composer 1
 
@@ -74,7 +74,8 @@ Bashrc config (bash_profile on Mac): https://github.com/mrefferdk/dotfiles/blob/
 
 brew install --cask sequel-ace
 
-brew install php@7.4
+brew tap shivammathur/php
+brew install shivammathur/php/php@8.1
 
 brew services start php
 
