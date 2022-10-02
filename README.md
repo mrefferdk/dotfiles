@@ -97,6 +97,8 @@ brew link node@10
 
 Multiple Node versions: https://notiz.dev/blog/how-to-manage-multiple-node-versions-on-mac#switch-node-via-alias
 
+Docker on Mac - Use less CPU power: https://stackoverflow.com/questions/58308169/docker-for-mac-memory-usage-in-com-docker-hyperkit/71832288#71832288
+
 
 
 
