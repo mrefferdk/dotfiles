@@ -56,6 +56,12 @@ iTerm2: brew install --cask iterm2
 
 Rectangle (window management): brew install --cask rectangle
 
+**For .NET Development**
+
+A neat shell script that runs DotCover from Jetbrains and generates and opens a coverage report: [here](./bin/coverage.sh) 
+
+
+
 *Shell:*
 
 Bash. (Zsh is default in Mac now)
